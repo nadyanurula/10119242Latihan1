@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Roboto_Medium" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">font/roboto_medium.ttf</item>
+    </style>
+
+    <style name="Lato_Regular" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">font/lato_regular.ttf</item>
+    </style>
+
+    <style name="Work_Sans" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">font/work_sans.ttf</item>
+    </style>
+
+    <style name="stylebold" parent="Roboto_Medium">
+        <item name="android:textColor">@color/digiteam</item>
+        <item name="android:textSize">@dimen/font16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="stylebold2" parent="Roboto_Medium">
+        <item name="android:textColor">@color/digiteam</item>
+        <item name="android:textSize">@dimen/font20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="deskripsi" parent="Lato_Regular">
+        <item name="android:textColor">@color/deskripsi</item>
+        <item name="android:textSize">@dimen/font12</item>
+    </style>
+
+    <style name="profile" parent="Lato_Regular">
+        <item name="android:textColor">@color/digiteam</item>
+        <item name="android:textSize">@dimen/font14</item>
+    </style>
+
+    <style name="jamker" parent="Roboto_Medium">
+        <item name="android:textColor">@color/digiteam</item>
+        <item name="android:textSize">@dimen/font20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="jamker2" parent="Roboto_Medium">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/font14</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="jam" parent="Roboto_Medium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonCheckIn" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">font/work_sans</item>
+        <item name="android:background">@drawable/borderbutton</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="bulann" parent="Roboto_Medium">
+        <item name="android:textColor">@color/green2</item>
+        <item name="android:textSize">@dimen/font16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
